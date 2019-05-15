@@ -14,6 +14,7 @@ class CircularBufferAvg {
   inline double AddValue(const T& value) noexcept {
     if (max_size_reached_ >= _Size) {
       avg_ += (double(value) - buffer_[insert_index_]) / _Size;
+      buffer_[insert_index_] = value;
       ++insert_index_ %= _Size;
       return avg_;
     }
