@@ -37,5 +37,5 @@ install(FILES "${PROJECT_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake"
 install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/ DESTINATION include)
 
 
-enable_testing()
-add_subdirectory(test)
+#enable_testing()
+#add_subdirectory(test)
