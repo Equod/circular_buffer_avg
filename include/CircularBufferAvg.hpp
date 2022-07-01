@@ -2,6 +2,7 @@
 #define CIRCULAR_BUFFER_AVG_CIRCULAR_BUFFER_AVG_H
 
 #include <array>
+#include <cstddef>
 
 namespace circular_buffer_avg {
 
